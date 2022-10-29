@@ -1,4 +1,4 @@
-#Informações sobre o projeto
+# Informações sobre o projeto
 
 Esse projeto foi desenvolvido junto ao curso React SPA da DevMedia.
 

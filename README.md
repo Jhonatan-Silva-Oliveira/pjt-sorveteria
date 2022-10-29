@@ -1,3 +1,14 @@
+# Objetivo
+
+A proposta desse projeto é criar um site de sorveteria que possui três páginas e que é possível navegar entre elas. Isso será feito utilizando o React JS.
+
+Dessa forma será colocado em prática os seguintes conceitos:
+
+Criar e estruturar as pastas e arquivos do projeto.
+Criar componentes que representam as páginas do site.
+Utilizar a biblioteca React Router Dom para criar a navegação entre as páginas do site.
+Criar os componentes que podem ser reutilizados em todas as páginas do site.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

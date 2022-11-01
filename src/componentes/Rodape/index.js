@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './style.css';
 
 export default function Rodape() {
   return (
     <footer>
-      <div className="container-main-footer">
+      <div className="limitar-secao container-footer">
         <img src="../assets/logo.png"/>
         
         <div className="container-info">
@@ -22,12 +21,12 @@ export default function Rodape() {
         
         <div className="container-info">
           <h3>Horários</h3>
-          <p>Aberto Todos os Dias</p>
+          <p>ABERTO TODOS OS DIAS</p>
           <p>10:00 - 22:00</p>
         </div>
       </div>
       
-      <div className="container-footer">
+      <div className="container-footer-direitos">
         <p>Gelateria. Orgulhosamente desenvolvido por "nome do desenvolvedor"</p>
       </div>
     </footer>

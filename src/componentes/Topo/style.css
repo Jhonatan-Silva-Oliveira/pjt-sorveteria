@@ -1,5 +1,10 @@
 header {
-  background-color: rgba(252, 224, 65, 0.705);
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  background-color: rgb(249, 219, 121);
 }
 
 .secao-header {
@@ -9,10 +14,13 @@ header {
 }
 
 .secao-header img {
-  width: 70px;
+  width: auto;
+  height: 60px;
 }
 
 .secao-header nav {
+  height: 40px;
+  align-items: center;
   display: flex;
   justify-content: space-between;
   width: 300px;
@@ -27,4 +35,17 @@ header {
 
 .navegacao:hover {
   color: rgb(90, 59, 2);
+}
+
+@media screen and (max-width: 768px) {
+  .secao-header {
+    flex-direction: column;
+  }
+  
+  .secao-header nav {
+    border-top: 1px solid gray;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 10px;
+  }
 }

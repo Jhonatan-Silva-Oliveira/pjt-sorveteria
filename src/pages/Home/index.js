@@ -9,12 +9,12 @@ const Home = () => (
     
     <main>
       <section className='secao-banner'>
-        <div className="limitar-secao box-secao-banner">
+        <div className=" box-secao-banner">
           <h1>Sorvete Artesanal</h1>
         </div>
       </section>
       
-      <section className='secao-conteudo'>
+      <section className='secao-conteudo-sabores'>
         <div className='box-secao'>
           <img src='../assets/banner-sabores.jpg'/>
         </div>
@@ -26,7 +26,7 @@ const Home = () => (
         </div>
       </section>
       
-      <section className='secao-conteudo'>
+      <section className='secao-conteudo-eventos'>
         <div className='box-secao box-texto'>
           <h2>Nossos Eventos</h2>
           <span>Delicias com sorvete!</span>
@@ -39,7 +39,7 @@ const Home = () => (
       </section>
       
       
-      <section className='secao-conteudo'>
+      <section className='secao-conteudo-sobre'>
         <div className='box-secao'>
           <img src='../assets/sobre-image.jpg'/>
         </div>
